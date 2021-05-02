@@ -1,0 +1,209 @@
+  <!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./image/favicon.ico" type="image/x-icon">
+  <title>Ehya - Агенство цифровых продуктов</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="js/jquery.min.js" defer></script>
+  <script src="js/jquery.min.mask.js" defer></script>
+  <script src="js/jquery.validate.min.js" defer></script>
+  <script src="js/swiper-bundle.min.js" defer></script>
+  <script src="js/aos.js" defer></script>
+  <script src="js/main1.js" defer></script>
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+  <body>
+  <header class="navbar navbar--mobile-fixed">
+    <div class="container">
+      <div class="navbar-block">
+        <div class="navbar-logo" data-aos="fade-right" data-aos-delay="100">
+          <a href="index.html" class="logo"
+            ><img src="image/Logo.svg" alt="logo: Ehya" class="logo__image"
+          /></a>
+        </div>
+        <div class="navbar-navigation">
+          <ul class="navbar-menu" data-aos="fade-left" data-aos-delay="200">
+            <li class="navbar-menu__item">
+              <a href="#" class="navbar-menu__link">Домой</a>
+            </li>
+            <li class="navbar-menu__item navbar-menu__item--dropdown">
+              <a href="#" class="navbar-menu__link dropdown-link"
+                >Лэндинги<img
+                  src="image/angle-down.svg"
+                  alt="icon: angle-down"
+                  class="navbar-menu__icon"
+                />
+              </a>
+              <div class="dropdown-content">
+                <a class="dropdown-content__link" href="#">Лэндинг 1</a>
+                <a class="dropdown-content__link" href="#">Лэндинг 2</a>
+                <a class="dropdown-content__link" href="#">Лэндинг 3</a>
+              </div>
+            </li>
+            <li class="navbar-menu__item navbar-menu__item--dropdown">
+              <a href="#" class="navbar-menu__link dropdown-link"
+                >Страницы
+                <img
+                  src="image/angle-down.svg"
+                  alt="icon: angle-down"
+                  class="navbar-menu__icon"
+                />
+              </a>
+              <div class="dropdown-content">
+                <a class="dropdown-content__link" href="#">Страница 1</a>
+                <a class="dropdown-content__link" href="#">Страница 2</a>
+                <a class="dropdown-content__link" href="#">Страница 3</a>
+              </div>
+            </li>
+            <li class="navbar-menu__item">
+              <a href="#" class="navbar-menu__link">Помощь</a>
+            </li>
+          </ul>
+          <button
+            data-toggle="modal"
+            class="button navbar-button"
+            type="submit"
+            data-aos="fade-left"
+            data-aos-delay="300"
+          >
+            Получить
+          </button>
+        </div>
+        <!-- /.navbar-navigation -->
+        <button class="menu-button menu-button-navbar">
+          <span class="menu-button__line"></span>
+          <span class="menu-button__line"></span>
+          <span class="menu-button__line"></span>
+        </button>
+      </div>
+      <!-- /.navbar-block -->
+    </div>
+    <!-- /.container -->
+  </header>
+
+  <section class="thank">
+    <div class="container">
+      <h1>Сообщение отправлено</h1>
+      <p>Менеджер Вам перезвонит в течении пяти минут!</p>
+      <a class="navbar-button" href="index.html">На гравную</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer__top">
+          <div class="footer__top-links">
+            <a href="index.html" class="footer__logo" data-aos="flip-right" data-aos-duration="2000">
+              <img src="image/footer-logo.png" alt="footer__logo: Ehya" class="footer__logo-icon">
+            </a>
+            <div class="footer__top-text">Создайте современный и креативный веб-сайт с crealand</div>
+            <div class="footer__top-social">
+              <a href="https://www.google.ru/" class="footer__link" target="_blank">
+                <img class="footer__img-link" src="image/footer-google.svg" alt="google">
+              </a>
+              <a href="https://twitter.com" class="footer__link" target="_blank">
+                <img class="footer__img-link" src="image/footer-twitter.svg" alt="twitter">
+              </a>
+              <a href="https://www.instagram.com" class="footer__link" target="_blank">
+                <img class="footer__img-link" src="image/footer-instagram.svg" alt="instagram">
+              </a>
+              <a href="https://linkadd.in/" class="footer__link" target="_blank">
+                <img class="footer__img-link" src="image/footer-linkedin.svg" alt="linkedin">
+              </a>
+              <a href="https://www.youtube.com" class="footer__link" target="_blank">
+                <img class="footer__img-link" src="image/footer-youtube.svg" alt="youtube">
+              </a>
+              <!-- /.footer__link -->
+            </div>
+            <!-- /.footer__top-social -->
+          </div>
+          <!-- /.footer__top-links -->
+          <div class="footer__top-product">
+            <h2 class="footer__title">Продукт</h2>
+            <ul class="footer__list">
+              <li class="footer__item"><a class="footer__top-link" href="#">Лендинг</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Функции</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Документация</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Скидки</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Расценки</a></li>
+            </ul>
+          </div>
+          <!-- /.footer__top-product -->
+          <div class="footer__top-product">
+            <h2 class="footer__title">Сервисы</h2>
+            <ul class="footer__list">
+              <li class="footer__item"><a class="footer__top-link" href="#">Документация</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Дизайн</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Темы</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Иллюстрации</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">UI Kit</a></li>
+            </ul>
+          </div>
+          <!-- /.footer__top-product -->
+          <div class="footer__top-product">
+            <h2 class="footer__title">Компания</h2>
+            <ul class="footer__list">
+              <li class="footer__item"><a class="footer__top-link" href="#">О нас</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Условия</a></li>
+              <li class="footer__item footer__item-mb"><a class="footer__top-link" href="#">Политика<br>конфиденциальности</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Careers</a></li>
+            </ul>
+          </div>
+          <!-- /.footer__top-product -->
+          <div class="footer__top-product">
+            <h2 class="footer__title">Более</h2>
+            <ul class="footer__list">
+              <li class="footer__item"><a class="footer__top-link" href="#">Документация</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Лицензия</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Измененния</a></li>
+            </ul>
+          </div>
+          <!-- /.footer__top-product -->
+        </div>
+        <!-- /.footer__top -->
+        <div class="footer__bottom">
+          <img class="footer__bottom-img" src="image/footer__heart.svg" alt="footer: heart">
+          <span class="footer__bottom-span">
+            Copyright © 2019. Crafted with love.
+          </span>
+        </div>
+        <!-- /.footer__bottom -->
+      </div>
+      <!-- /.footer-wrapper -->
+    </div>
+    <!-- /.container -->
+  </footer>
+  <!-- /.footer -->
+  <div class="modal">
+    <div class="modal__overlay">
+    </div>
+    <!-- /.modal__overlay -->
+    <div class="modal__dialog">
+      <button class="modal__close"><img src="image/close.svg" alt="modal close" width="16" height="16"></button>
+      <div class="modal__contact-form">
+        <h3 class="modal__title">Ehya</h3>
+        <form action="send1.php" method="POST" class="form modal__form"> 
+          <input class="input modal__input" type="text" placeholder="Введите ваше имя*" name="name" required minlength="2">
+          <input class="input modal__input phone-mask" type="tel" placeholder="Введите ваш номер телефона*" name="phone" required minlength="18" maxlength="18">
+          <input type="email" class="modal__input" placeholder="Введите вашу почту*" name="email" required>
+          <textarea class="modal__message" cols="30" rows="10" placeholder="Введите сообщение" name="message"></textarea>
+          <div class="modal__form-wrapper">
+            <button class="button modal__button" type="submit">Отправить</button>
+            <span class="modal__info">* Обязательные поля</span>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- /.modal__dialog -->
+  </div>
+  <!-- /.modal -->
+
+</body>
+</html>

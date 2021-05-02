@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./image/favicon.ico" type="image/x-icon">
+  <title>Ehya - Агенство цифровых продуктов</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="js/jquery.min.js" defer></script>
+  <script src="js/jquery.min.mask.js" defer></script>
+  <script src="js/jquery.validate.min.js" defer></script>
+  <script src="js/swiper-bundle.min.js" defer></script>
+  <script src="js/aos.js" defer></script>
+  <script src="js/main1.js" defer></script>
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar navbar--mobile-fixed">
+    <div class="container">
+      <div class="navbar-block">
+        <div class="navbar-logo" data-aos="fade-right" data-aos-delay="100">
+          <a href="index.html" class="logo"
+            ><img src="image/Logo.svg" alt="logo: Ehya" class="logo__image"
+          /></a>
+        </div>
+        <div class="navbar-navigation">
+          <ul class="navbar-menu aos aos--third" data-aos="fade-left" data-aos-delay="400">
+            <li class="navbar-menu__item">
+              <a href="#" class="navbar-menu__link">Домой</a>
+            </li>
+            <li class="navbar-menu__item navbar-menu__item--dropdown">
+              <a href="#" class="navbar-menu__link dropdown-link"
+                >Лэндинги<img
+                  src="image/angle-down.svg"
+                  alt="icon: angle-down"
+                  class="navbar-menu__icon"
+                />
+              </a>
+              <div class="dropdown-content">
+                <a class="dropdown-content__link" href="#">Лэндинг 1</a>
+                <a class="dropdown-content__link" href="#">Лэндинг 2</a>
+                <a class="dropdown-content__link" href="#">Лэндинг 3</a>
+              </div>
+            </li>
+            <li class="navbar-menu__item navbar-menu__item--dropdown">
+              <a href="#" class="navbar-menu__link dropdown-link"
+                >Страницы
+                <img
+                  src="image/angle-down.svg"
+                  alt="icon: angle-down"
+                  class="navbar-menu__icon"
+                />
+              </a>
+              <div class="dropdown-content">
+                <a class="dropdown-content__link" href="#">Страница 1</a>
+                <a class="dropdown-content__link" href="#">Страница 2</a>
+                <a class="dropdown-content__link" href="#">Страница 3</a>
+              </div>
+            </li>
+            <li class="navbar-menu__item">
+              <a href="#" class="navbar-menu__link">Помощь</a>
+            </li>
+          </ul>
+          <button
+            data-toggle="modal"
+            class="button navbar-button"
+            type="submit"
+            data-aos="fade-left"
+            data-aos-delay="300"
+          >
+            Получить
+          </button>
+        </div>
+        <!-- /.navbar-navigation -->
+        <button class="menu-button menu-button-navbar">
+          <span class="menu-button__line"></span>
+          <span class="menu-button__line"></span>
+          <span class="menu-button__line"></span>
+        </button>
+      </div>
+      <!-- /.navbar-block -->
+    </div>
+    <!-- /.container -->
+  </header>
+  <!-- /.header -->
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-wrapper">
+        <div class="hero__left">
+          <h2 class="hero__left-subtitle">Номер <span class="hero__left-number">#1,</span></h2>
+          <span class="hero__left-asia">Южная Азия</span>
+          <h1 class="hero__left-title">Агенство цифровых продуктов</h1>
+          <p class="hero__left-text">Мы&nbsp;даем результаты, помогающие Вам добиться&nbsp;экономии средств и времени без риска или&nbsp;накладных расходов на&nbsp;управление</p>
+          <a class="hero__left-link" href="#">Наше портфолио</a>
+          <a class="hero__left-btn" href="#patner">
+            <img class="hero__left-img" src="image/left-img.svg" alt="Portfolio">
+          </a>
+        </div>
+        <!-- /.hero__left -->
+
+        <div class="hero__rigth"> 
+          <img class="hero__rigth-img" src="image/hero-rigth2.png" alt="hero img" >
+        </div>
+        <!-- /.hero__rigth -->
+      
+      </div>
+      <!-- /.hero-wrapper -->
+      
+    
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.hero -->
+
+  <section class="partners">
+    <div class="container">
+      <h4 class="partners-title" id="partners">Наши партнеры</h4>
+      <div class="partners-wrapper">
+        <div class="partners-info">
+          <div class="partners-info__name">
+            <span class="partners-info__name-first">Мы работали с ними,</span>
+            <span class="partners-info__name-second"
+              >Мы доверяем друг другу</span
+            >
+          </div>
+          <div class="partners-info__about">
+            Наша команда предоставляет творческое образование высокого уровня
+            для глобальной аудитории студентов, преподавателей и
+            предпринимателей со всего мира
+          </div>
+        </div>
+        <div class="partners-icons">
+          <a
+            href="https://slack.com/"
+            class="partners-icons-link"
+            target="_blank"
+            rel="nofollow noopener"
+            ><img src="image/slack.svg" alt="icon: slack" class="partners-link"
+          /></a>
+          <a
+            href="https://www.netflix.com/"
+            class="partners-icons-link"
+            target="_blank"
+            rel="nofollow noopener"
+            ><img
+              src="image/netflix.svg"
+              alt="icon: netflix"
+              class="partners-link"
+          /></a>
+          <a
+            href="https://www.fitbit.com/"
+            class="partners-icons-link"
+            target="_blank"
+            rel="nofollow noopener"
+            ><img
+              src="image/fitbit.svg"
+              alt="icon: fitbit"
+              class="partners-link"
+          /></a>
+          <a
+            href="https://www.google.ru/"
+            class="partners-icons-link"
+            target="_blank"
+            rel="nofollow noopener"
+            ><img
+              src="image/google.svg"
+              alt="icon: google"
+              class="partners-link"
+          /></a>
+          <a
+            href="https://www.airbnb.ru/"
+            class="partners-icons-link"
+            target="_blank"
+            rel="nofollow noopener"
+            ><img
+              src="image/airbnb.svg"
+              alt="icon: airbnb"
+              class="partners-link"
+          /></a>
+        </div>
+
+        <!-- /.partners-text -->
+        <!-- /.partners-tagline -->
+      </div>
+      <!-- /.partners-wrapper -->
+    </div>
+  </section>
+  <!-- /.partners -->
+
+
+  <section class="work" id="patner">
+    <div class="container">
+      <div class="work__about">
+        <h2 class="work__about-title">Что мы делаем</h2>
+        <span class="work__about-text">Мы работаем вместе с нашим клиентом, чтобы создать эффективный продукт.</span>
+      </div>
+      <!-- /.work__about -->
+      <div class="work-wpapper">
+        <div class="work-card">
+          <img class="work-card__img oval" src="image/oval1.png" alt="Oval">
+          <div class="work-card__about">
+            <h3 class="work-card__title">Брендинг</h3>
+            <p class="work-card__text">Создаем логотип и концепцию под нужды вашего бренда.</p>
+          </div>
+        </div>
+        <div class="work-card">
+          <img class="work-card__img oval" src="image/Polygon.png" alt="Poligon">
+          <div class="work-card__about">
+            <h3 class="work-card__title">Разработка</h3>
+            <p class="work-card__text">Мы разрабатываем ваши приложения, веб-сайт и панель управления для вас.</p>
+          </div>
+        </div>
+        <div class="work-card">
+          <img class="work-card__img oval" src="image/Polygon1.png" alt="Poligon1">
+          <div class="work-card__about">
+            <h3 class="work-card__title">UI/UX Дизайн</h3>
+            <p class="work-card__text">Создание цифрового продукта с красивым и интуитивно понятным дизайном.</p>
+          </div>
+        </div>
+        <div class="work-card">
+          <img class="work-card__img oval" src="image/Rectangle.png" alt="Rectangle">
+          <div class="work-card__about">
+            <h3 class="work-card__title">Microstock</h3>
+            <p class="work-card__text">Мы производим миллион активов для нужд вашего бизнеса.</p>
+          </div>
+        </div>
+        <div class="work-card">
+          <img class="work-card__img oval" src="image/Triangle.png" alt="Triangle">
+          <div class="work-card__about">
+            <h3 class="work-card__title">Соцсети</h3>
+            <p class="work-card__text">Планирование и поддержка социальных сетей для широкой аудитории.</p>
+          </div>
+        </div>
+        <div class="work-card">
+          <img class="work-card__img oval" src="image/Polygon2.png" alt="Polygon2">
+          <div class="work-card__about">
+            <h3 class="work-card__title">Исследование</h3>
+            <p class="work-card__text">Помощь исследовательскому стартапу или бренду в удовлетворении потребностей бизнеса.</p>
+          </div>
+        </div>
+        <!-- /.work__card -->
+      </div>
+      <!-- /.work-wpapper -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.work -->
+
+  <section class="portfolio">
+    <div class="container">
+      <h4 class="portfolio-title" id="portfolio-link">портфолио</h4>
+      <h2 class="portfolio-name">Наши проекты</h2>
+
+      <div class="portfolio-slider swiper-container">
+        <div class="portfolio-wrapper swiper-wrapper">
+          <div class="portfolio-card swiper-slide">
+            <img
+              src="image/project-1.jpg"
+              alt="icon: project-1"
+              class="portfolio-card__image"
+            />
+            <div class="portfolio-info">
+              <h4 class="portfolio-info__landing">Вебсайт, Лендинг</h4>
+              <h3 class="portfolio-info__project">Проект Вебсайта</h3>
+            </div>
+          </div>
+          <!-- /.portfolio-card -->
+          <div class="portfolio-card swiper-slide">
+            <img
+              src="image/project-2.jpg"
+              alt="icon: project-2"
+              class="portfolio-card__image"
+            />
+            <div class="portfolio-info">
+              <h4 class="portfolio-info__landing">
+                UI/UX Дизайн
+              </h4>
+              <h3 class="portfolio-info__project">Проект Дизайна</h3>
+            </div>
+          </div>
+          <!-- /.portfolio-card -->
+          <div class="portfolio-card swiper-slide">
+            <img
+              src="image/project-3.jpg"
+              alt="icon: project-3"
+              class="portfolio-card__image"
+            />
+            <div class="portfolio-info">
+              <h4 class="portfolio-info__landing">
+                Приложения, Мобильные, iOS
+              </h4>
+              <h3 class="portfolio-info__project">Проекты приложений</h3>
+            </div>
+          </div>
+          <!-- /.portfolio-card -->
+          <div class="portfolio-card swiper-slide">
+            <img
+              src="image/project-4.jpg"
+              alt="icon: project-4"
+              class="portfolio-card__image"
+            />
+            <div class="portfolio-info">
+              <h4 class="portfolio-info__landing">Instagram</h4>
+              <h3 class="portfolio-info__project">Проект Иллюстраций</h3>
+            </div>
+          </div>
+          <!-- /.portfolio-card -->
+        </div>
+        <!-- /.portfolio-wrapper -->
+        <button
+          class="portfolio-slider__button portfolio-slider__button--prev"
+        ></button>
+        <button
+          class="portfolio-slider__button portfolio-slider__button--next"
+        ></button>
+      </div>
+    </div>
+  </section>
+  <!-- /.portfolio -->
+
+
+  <section class="feedback">
+    <div class="container">
+      <h4 class="feedback__subtitle">Отзывы</h4>
+      <h2 class="feedback__title">Что говорят о нас</h2>
+      <div class="feedback__slider swiper-container">
+        <div class="feedback-wrapper swiper-wrapper">
+          <div class="feedback-card swiper-slide">
+            <div class="feedback-card-info feedback-info">
+              <img class="feedback-info__image" src="image/feedback-photo1.png" alt="photo: feedback-photo-1">
+              <div class="feedback-card-text feedback-text">
+                <h3 class="feedback-text__title">Jaquon Hart</h3>
+                <span class="feedback-text__subtitle">Вице-президент - компания Lizlle</span>
+              </div>
+            </div>
+            <div class="feedback-card-description">
+              &laquo;Их&nbsp;навыки и&nbsp;опыт в&nbsp;области пользовательского интерфейса&nbsp;/ пользовательского интерфейса были ключевыми для выявления потенциальных проблемных моментов в&nbsp;наших бизнес-процессах, которые они прекрасно исправили или оптимизировали&raquo;.
+            </div>
+          </div>
+          <!-- /.feedback__card swiper-slide -->
+          <div class="feedback-card swiper-slide">
+            <div class="feedback-card-info feedback-info">
+              <img class="feedback-info__image" src="image/feedback-photo2.png" alt="photo: feedback-photo-1">
+              
+              <div class="feedback-card-text feedback-text feedback-card__description">
+                <h3 class="feedback-text__title">Valdemar Forsberg</h3>
+                <span class="feedback-text__subtitle">Основатель Digitac Finance</span>
+              </div>
+            </div>
+            <div class="feedback-card-description">
+              Ehya подтолкнул нас к&nbsp;мысли, выходящей за&nbsp;рамки наших
+              первоначальных возможностей и&nbsp;воображения, при этом гарантируя,
+              что дизайн и&nbsp;форма платформы постоянно корректируются на&nbsp;основе
+              данных.
+            </div>
+          </div>
+          <!-- /.feedback__card swiper-slide -->
+        </div>
+        <!-- /.feedback-wrapper swiper-wrapper -->
+        <button class="feedback__slider-button feedback__slider-button--next"></button>
+        <!-- /.feedback-slider__button -->
+      </div>
+      <!-- /.feedback__slider swiper-container -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.feedback -->
+  <section class="social">
+    <div class="container">
+      <div class="social-wrapper">
+        <h2 class="social__title">Наши соцсети</h2>
+        <h3 class="social__subtitle">Будем друзьями</h3>
+        <div class="social-wrapper__web">
+          <div class="social__card">
+            <a href="https://www.instagram.com" class="social__card-link mt" target="_blank">
+              <img src="image/ins.svg" alt="social-network: Instagram" class="social__card-icon">
+            </a>
+            <h4 class="social__card-network">Instagram</h4>
+            <p class="social__card-text">Для нашего портфолио и повседневных дел в офисе</p>
+            <a href="https://www.instagram.com" class="social__card-link mb" target="_blank">
+              <span class="social__card-button">Подписаться</span>
+              <img src="image/social__card-rigth.svg" alt="button: sign up" class="social__card-rigth">
+            </a>
+            <!-- /.social__card-link -->
+          </div>
+          <!-- /.social__card -->
+          <div class="social__card">
+            <a href="https://twitter.com" class="social__card-link mt" target="_blank">
+              <img src="image/twit.svg" alt="social-network: Twitter" class="social__card-icon">
+            </a>
+            <h4 class="social__card-network">Twitter</h4>
+            <p class="social__card-text">Для случайных мыслей и интересных вещей</p>
+            <a href="https://twitter.com" class="social__card-link mb" target="_blank">
+              <span class="social__card-button">Подписаться</span>
+              <img src="image/social__card-rigth.svg" alt="button: sign up" class="social__card-rigth">
+            </a>
+            <!-- /.social__card-link -->
+          </div>
+          <!-- /.social__card -->
+          <div class="social__card">
+            <a href="https://dribbble.com" class="social__card-link mt" target="_blank">
+              <img src="image/dribbl.svg" alt="social-network: Dribbble" class="social__card-icon">
+            </a>
+            <h4 class="social__card-network">Dribbble</h4>
+            <p class="social__card-text">Для обновленных и подробных всех нашего портфолио</p>
+            <a href="https://dribbble.com" class="social__card-link mb" target="_blank">
+              <span class="social__card-button">Подписаться</span>
+              <img src="image/social__card-rigth.svg" alt="button: sign up" class="social__card-rigth">
+            </a>
+            <!-- /.social__card-link -->
+          </div>
+          <!-- /.social__card -->
+          <div class="social__card">
+            <a href="https://www.youtube.com" class="social__card-link mt" target="_blank">
+              <img src="image/youtube.svg" alt="social-network: Youtube" class="social__card-icon">
+            </a>
+            <h4 class="social__card-network">Youtube</h4>
+            <p class="social__card-text">Для нашего видео руководства и советах по индустрии дизайна</p>
+            <a href="https://www.youtube.com" class="social__card-link mb" target="_blank">
+              <span class="social__card-button">Подписаться</span>
+              <img src="image/social__card-rigth.svg" alt="button: sign up" class="social__card-rigth">
+            </a>
+            <!-- /.social__card-link -->
+          </div>
+          <!-- /.social__card -->
+        </div>
+        <!-- /.social-wrapper__web -->
+      </div>
+      <!-- /.social-wrapper -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.social -->
+  <section class="cta">
+    <div class="container">
+      <div class="cta-wrapper">
+        <h2 class="cta__title">Мы готовы к сложным проектам</h2>
+        <!-- /.cta__title -->
+        <h3 class="cta__subtitle">Отправьте нам свой бриф и расскажите о своем проекте. Мы готовы помочь всем, что вам нужно</h3>
+        <!-- /.cta__subtitle -->
+        <button class="cta__btn button">Пообщаемся?</button>
+        <!-- /.cta__btn -->
+      </div>
+      <!-- /.cta-wrapper -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.cta -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer__top">
+          <div class="footer__top-links">
+            <a href="index.html" class="footer__logo" data-aos="flip-right" data-aos-duration="2000">
+              <img src="image/footer-logo.png" alt="footer__logo: Ehya" class="footer__logo-icon">
+            </a>
+            <div class="footer__top-text">Создайте современный и креативный веб-сайт с crealand</div>
+            <div class="footer__top-social">
+              <a href="https://www.google.ru/" class="footer__link" target="_blank">
+                <img class="footer__img-link" src="image/footer-google.svg" alt="google">
+              </a>
+              <a href="https://twitter.com" class="footer__link" target="_blank">
+                <img class="footer__img-link" src="image/footer-twitter.svg" alt="twitter">
+              </a>
+              <a href="https://www.instagram.com" class="footer__link" target="_blank">
+                <img class="footer__img-link" src="image/footer-instagram.svg" alt="instagram">
+              </a>
+              <a href="https://linkadd.in/" class="footer__link" target="_blank">
+                <img class="footer__img-link" src="image/footer-linkedin.svg" alt="linkedin">
+              </a>
+              <a href="https://www.youtube.com" class="footer__link" target="_blank">
+                <img class="footer__img-link" src="image/footer-youtube.svg" alt="youtube">
+              </a>
+              <!-- /.footer__link -->
+            </div>
+            <!-- /.footer__top-social -->
+          </div>
+          <!-- /.footer__top-links -->
+          <div class="footer__top-product">
+            <h2 class="footer__title">Продукт</h2>
+            <ul class="footer__list">
+              <li class="footer__item"><a class="footer__top-link" href="#">Лендинг</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Функции</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Документация</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Скидки</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Расценки</a></li>
+            </ul>
+          </div>
+          <!-- /.footer__top-product -->
+          <div class="footer__top-product">
+            <h2 class="footer__title">Сервисы</h2>
+            <ul class="footer__list">
+              <li class="footer__item"><a class="footer__top-link" href="#">Документация</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Дизайн</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Темы</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Иллюстрации</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">UI Kit</a></li>
+            </ul>
+          </div>
+          <!-- /.footer__top-product -->
+          <div class="footer__top-product">
+            <h2 class="footer__title">Компания</h2>
+            <ul class="footer__list">
+              <li class="footer__item"><a class="footer__top-link" href="#">О нас</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Условия</a></li>
+              <li class="footer__item footer__item-mb"><a class="footer__top-link" href="#">Политика<br>конфиденциальности</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Careers</a></li>
+            </ul>
+          </div>
+          <!-- /.footer__top-product -->
+          <div class="footer__top-product">
+            <h2 class="footer__title">Более</h2>
+            <ul class="footer__list">
+              <li class="footer__item"><a class="footer__top-link" href="#">Документация</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Лицензия</a></li>
+              <li class="footer__item"><a class="footer__top-link" href="#">Измененния</a></li>
+            </ul>
+          </div>
+          <!-- /.footer__top-product -->
+        </div>
+        <!-- /.footer__top -->
+        <div class="footer__bottom">
+          <img class="footer__bottom-img" src="image/footer__heart.svg" alt="footer: heart">
+          <span class="footer__bottom-span">
+            Copyright © 2019. Crafted with love.
+          </span>
+        </div>
+        <!-- /.footer__bottom -->
+      </div>
+      <!-- /.footer-wrapper -->
+    </div>
+    <!-- /.container -->
+  </footer>
+  <!-- /.footer -->
+  <div class="modal">
+    <div class="modal__overlay">
+    </div>
+    <!-- /.modal__overlay -->
+    <div class="modal__dialog">
+      <button class="modal__close"><img src="image/close.svg" alt="modal close" width="16" height="16"></button>
+      <div class="modal__contact-form">
+        <h3 class="modal__title">Ehya</h3>
+        <form action="send1.php" method="POST" class="form modal__form"> 
+          <input class="input modal__input" type="text" placeholder="Введите ваше имя*" name="name" required minlength="2">
+          <input class="input modal__input phone-mask" type="tel" placeholder="Введите ваш номер телефона*" name="phone" required minlength="18" maxlength="18">
+          <input type="email" class="modal__input" placeholder="Введите вашу почту*" name="email" required>
+          <textarea class="modal__message" cols="30" rows="10" placeholder="Введите сообщение" name="message"></textarea>
+          <div class="modal__form-wrapper">
+            <button class="button modal__button" type="submit">Отправить</button>
+            <span class="modal__info">* Обязательные поля</span>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- /.modal__dialog -->
+  </div>
+  <!-- /.modal -->
+  <a href="index.html" class="to-top"><img src="image/angle-up.svg" alt="Наверх" /></a>
+</body>
+</html>
+
