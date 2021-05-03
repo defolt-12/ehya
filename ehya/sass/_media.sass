@@ -151,10 +151,14 @@
         width: 600px
   .to-top
     display: none
+
+
 @media (max-width: 840px)
   .portfolio .swiper-slide
     width: 330px !important 
     margin-right: 15px !important
+  .portfolio-info__project
+    font-size: 24px
 @media (max-width: 767px)
   .container
     width: 87.5%
@@ -165,6 +169,8 @@
       &__link
         color: #fff
   .navbar
+    &-block
+      padding: 20px 0
     &--mobile
       &-fixed
         position: fixed
@@ -172,6 +178,7 @@
         top: 0
         right: 0
         z-index: 99
+        overflow-y: auto
     &-navigation
       display: none
       position: fixed
@@ -186,6 +193,8 @@
       overflow-y: scroll
       &--visible
         display: block
+        height: calc(100% - 80px)
+        // overflow-y: auto
     &-menu
       margin: 0
       flex-direction: column
@@ -193,6 +202,7 @@
       width: 100%
       padding-top: 50px
       padding-bottom: 20px
+      overflow-y: auto
       &__link
         color:#FAFDFF
         font-size: 26px
@@ -215,7 +225,9 @@
       &__line
         width: 24px
         height: 3px
-        background-color: $textColor 
+        background-color: $textColor
+  .hero
+    margin-top: 72px
   .partners
     &-info
       &__name
@@ -303,7 +315,7 @@
   .container
     max-width: 87.5%
   .hero
-    padding: 51px 0 62px 0
+    padding: 36px 0 62px 0
     &-wrapper
       // margin-bottom: 99px
       position: relative
@@ -313,7 +325,7 @@
       &-title,
         font-family: Roboto
         font-style: normal
-        font-weight: bold
+        font-weight: bold 
         font-size: 30px
         line-height: 36px
         text-align: center
@@ -728,8 +740,6 @@
       padding-right: 40px
       width: 90%
 @media (min-width: 319px) and (max-width: 480px)
-  body
-    padding-top: 63px
   .container
     max-width: 87.5%
   .navbar
@@ -883,7 +893,8 @@
   .footer
     &__img
       &-link:hover
-          box-shadow: 0 0 12px #00B8D9
+          // box-shadow: 0 0 12px #00B8D9
+          transform: scale(1.8)
     &__top
       &-link:hover
         color: #fff
@@ -891,13 +902,25 @@
       &-img:hover
         border-radius: 50% 
         box-shadow: 0 0 12px #00B8D9
+
   .modal
     &__button:hover
       box-shadow: 0 0 12px #00B8D9
   .to-top
       &:hover
         box-shadow: 0 0 14px #00B8D9
-@media (max-height: 590px)
+@media (min-width: 768px)
+  .navbar
+    &-menu
+      &__item
+        &--dropdown
+          &:hover .dropdown-content
+            display: block
+  .dropdown
+    &-content
+      &__link
+        position: relative
+@media (max-height: 527px)
   .modal
     &__dialog
       &--visible
