@@ -224,8 +224,8 @@
         &-first
           display: block
       &__about
-        font-size: 16px
-        width: 550px
+        font-size: 14px
+        width: 100%
         text-align: center
     &-icons
       &-link
@@ -240,6 +240,37 @@
   .portfolio .swiper-slide
     width: 300px !important 
     margin-right: 15px !important
+@media (max-width: 700px)
+  .footer
+    &__top
+      &-product:nth-child(1)
+        // width: 50%
+      &-product:nth-child(2)
+        width: 50%
+      &-product:nth-child(3)
+        width: 40%
+      &-product:nth-child(4)
+        width: 40%
+      &-product:nth-child(5)
+        width: 40%
+      &-links
+        margin-top: -7px
+        margin-right: 0
+        max-width: 100%
+        align-items: center
+      &-social
+        min-width: 181px
+        justify-content: space-between
+    &__link
+      margin-right: 0px
+    &__link:nth-child(2)
+      margin-right: 0px
+    &__link:nth-child(3)
+      margin-right: 0px
+    &__link:nth-child(4)
+      margin-right: 0px
+    
+
 @media (max-width: 685px)
   .portfolio
     &-title
@@ -254,8 +285,9 @@
       &__project
         // font-size: 19px
   .portfolio .swiper-slide
-    width: 345px !important 
+    width: 360px !important 
     margin-right: 0px !important
+    margin-bottom: 26px
 @media (max-width: 620px)
   .social-wrapper__web
     justify-content: center
@@ -306,19 +338,22 @@
         padding: 15px 36px 15px 39px
       &-img
         position: absolute
-        bottom: -22px
+        bottom: -51px
         left: 44%
     &__left
       margin-bottom: 0
     &__rigth
-      justify-content: center
+      justify-content: baseline
+      min-width: 107%
+      margin-bottom: 36px
       &-img
+        width: 100%
         height: 272px
-        min-width: 510px
+        // min-width: 510px
         // margin-bottom: 134px
     &__left
       &-img
-        bottom: -30px
+        bottom: -44px
         left: 41%
         width: 50px
         height: 48px
@@ -371,7 +406,7 @@
     // &__link:nth-child(4)
     //   width: 50%
   .work
-    padding: 32px 0 36px 0
+    padding: 67px 0 36px 0
     &-wpapper
       flex-direction: column
       justify-content: center
@@ -447,7 +482,7 @@
       width: 100%
       height: 197px
   .portfolio
-    padding: 38px 0 52px 0
+    padding: 42px 0 52px 0
     &__title
       margin-left: 16px
       text-align: center
@@ -459,7 +494,7 @@
       text-transform: uppercase
     &__subtitle
       text-align: center
-      margin-bottom: 36px
+      margin-bottom: 34px
       font-family: Roboto
       font-style: normal
       font-weight: bold
@@ -478,7 +513,7 @@
       width: 100%
     .portfolio
       &-info
-        padding: 20px 33px
+        padding: 16px 8px
         &__about
           display: block
           font-weight: 600
@@ -488,7 +523,7 @@
         &__project
           margin-top: 12px
           font-weight: bold
-          font-size: 19px
+          font-size: 24px
           line-height: 32px
           text-align: center
   .feedback
@@ -663,6 +698,7 @@
 
       &-product:nth-child(2)
         margin-right: 0px
+        width: 50%
       &-product:nth-child(3)
         margin-right: 0px
       &-product:nth-child(4)
@@ -695,11 +731,14 @@
   body
     padding-top: 63px
   .container
-    max-width: 280px
+    max-width: 87.5%
   .navbar
     &-block
-      padding: 16px 0
-      justify-content: space-between
+      // padding: 16px 0
+      justify-content: flex-start
+    &-logo
+      margin-right: 59%
+      margin-left: 0%
     &-navigation
       top: 61px
       padding-bottom: 20px
@@ -710,12 +749,14 @@
     &-button
       margin: 0 auto
   .hero
+    &-wrapper
+      display: block
     &__left
       &-img
         width: 48px
         height: 48px
   .partners
-    padding-top: 2px
+    padding-top: 61px
     &-info
       margin-bottom: -2px
       &__name
@@ -739,8 +780,8 @@
         &:last-child
           display: none
   .portfolio
-    padding-top: 9px
-    padding-bottom: 32px
+    padding-top: 39px
+    padding-bottom: 26px
     &-title
       font-size: 14px
       line-height: 19px
@@ -756,26 +797,29 @@
       display: flex
       flex-direction: column
     &-card
-      width: 280px
+      width: 100%
       height: 404px
       margin-bottom: 24px
       &__image
-        width: 280px
+        width: 100%
         height: 300px
     &-info
       padding: 0
       padding-top: 20px
-      width: 280px
+      width: 100%
       height: 104px
       &__landing
-        font-size: 12px
+        font-size: 14px
         line-height: 20px
         text-align: center
         margin-bottom: 12px
       &__project
-        font-size: 19px
+        font-size: 24px
         line-height: 32px
         text-align: center
+  .portfolio .swiper-slide
+    width: 100% !important 
+    margin-right: 0px !important
 
 @media (min-width: 992px)
   .navbar
@@ -853,7 +897,7 @@
   .to-top
       &:hover
         box-shadow: 0 0 14px #00B8D9
-@media (max-height: 527px)
+@media (max-height: 590px)
   .modal
     &__dialog
       &--visible
